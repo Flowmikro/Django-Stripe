@@ -1,3 +1,8 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import ItemModel
+
+
+@admin.register(ItemModel)
+class CategoryAdmin(admin.ModelAdmin):
+    list_display = ['name', 'price']
