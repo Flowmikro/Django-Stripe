@@ -14,10 +14,16 @@ ___
 ___
 ## Запустить проект:
 Клонировать репозиторий и перейти в него в командной строке:  
-```https://github.com/Flowmikro/Django-Stripe.git```  
-```cd Django-Stripe```  
+```
+https://github.com/Flowmikro/Django-Stripe.git
+```  
+```
+cd Django-Stripe
+```  
 Получить ключи Stripe  
 Вставить в .env все переменные которые вам нужны  
 Запустить через Docker:
-```docker-compose up -d --build```  
+```
+docker-compose up -d --build
+```  
 Перейти по ссылке: http://127.0.0.1:8000/
