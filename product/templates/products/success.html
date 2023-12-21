@@ -1,0 +1,10 @@
+{% extends "products/base.html" %}
+{% comment %} templates/products/success.html {% endcomment %}
+
+{% block title %} Успех {% endblock title%}
+{% block content %}
+<div class="alert alert-success" role="alert">
+    Спасибо за покупку
+    <a href="{% url 'products:product-list' %}">К продуктам</a>
+</div>
+{% endblock content %}

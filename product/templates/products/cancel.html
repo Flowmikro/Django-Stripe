@@ -1,0 +1,12 @@
+{% extends "products/base.html" %}
+{% comment %} templates/products/cancel.html {% endcomment %}
+
+{% block title %} Отмена {% endblock title%}
+{% block content %}
+<div class="alert alert-info" role="alert">
+  Забыли что-то добавить в корзину?
+  <a href="{% url 'products:product-list' %}">
+      К продуктам
+  </a>
+</div>
+{% endblock content %}
