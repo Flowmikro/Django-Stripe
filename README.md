@@ -29,6 +29,7 @@ python3 -m venv venv
 ```
 ```angular2html
 .\venv\Scripts\activate
+source venv/bin/activate mac|linux
 ```
 Установить пакеты
 ```angular2html
