@@ -1,4 +1,7 @@
-{% extends "products/base.html" %} {% block title %} Products {% endblock title%} {% block content %} {% for product in products %}
+{% extends "products/base.html" %}
+{% block title %} Продукты {% endblock title%}
+{% block content %}
+{% for product in products %}
 
 {% comment %} templates/products/product_list.html {% endcomment %}
 <div class="card" style="width: 18rem">
